@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Types</title>
+    <link rel= "stylesheet" href= "demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/CSS">
+        div {
+            background-color: brown;
+            height:200px; width:400px;
+        }
+        #a1 {
+            background-color: blue;
+            color: black;
+        }
+        .a2 {
+            background-color: red;
+            color: white;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div>
+        <div style="height:200px; width:400px; background-color: red; color: white; font-style: italic"> INLINE STYLE </div>
+        <div style="height:200px; width:400px; background-color: blue; color: black; font-style: italic"> INLINE STYLE </div>
+        <div style="color: white; font-style: italic"> INTERNAL STYLE </div>
+        <div id="a1" style="font-style: italic"> INTERNAL STYLE </div>
+        <div class="a2" style="font-style: italic"> INTERNAL STYLE </div>
+        <div class="ext" style="font-style: italic"> EXTERNAL STYLE </div>
+        <div> CDN STYLE <i class="fa fa-home"></i> </div>
+    </div>
+</body>
+
+</html>

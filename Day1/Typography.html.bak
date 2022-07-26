@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Typography</title>
+	</head>
+	<body>
+	<hr>
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+	<hr>
+		<b> Bold </b>
+		<br>
+		<strong> Strong </strong>
+	<hr>
+	<i> Italic </i>
+	<br>
+	<em> Emphasis </em>
+	<br>
+	<cite> Citation </cite>
+	<br>
+	<dfn> Definition </dfn>
+	<hr>
+	<span> No margin no new line </span>
+	<span> No margin no new line </span>
+	<span> No margin no new line </span>
+	<hr>
+	<div> No margin but new line </div>
+	<div> No margin but new line </div>
+	<div> No margin but new line </div>
+	<hr>
+	<p> New line margin top & bottom </p>
+	<p> New line margin top & bottom </p>
+	<p> New line margin top & bottom </p>
+	<hr>
+	<blockquote> New line margin top & bottom right & left </blockquote>
+	<blockquote> New line margin top & bottom right & left </blockquote>
+	<blockquote> New line margin top & bottom right & left </blockquote>
+	<hr>
+	<strike> Strike </strike>
+	<br>
+	<del> Delete </del>
+	<hr>
+	H<sub>2</sub>O
+	<br>
+	a <sup>2</sup>
+	<hr>
+	<abbr title="Silver Oak University">SOU</abbr>
+	<br>
+	<acronym title="Silver Oak University">SOU</acronym>
+	
+	</body>
+</html>

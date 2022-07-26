@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table</title>
+	</head>
+	<body>
+		<table>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Mobile</th>
+			<th>Roll no.</th>
+			<th>Marks</th>
+		</tr>
+		<tr>
+			<td>Amaan</th>
+			<td>21</td>
+			<td>7878787878</td>
+			<td>48</td>
+			<td>100</td>
+		</tr>
+		</table>
+	</body>
+</html>

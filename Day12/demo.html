@@ -1,0 +1,58 @@
+<html>
+    <head>
+
+    </head>
+        <script type="text/javascript">
+    
+            function internalAlert()
+            {
+                alert("internal");
+                document.getElementById("changecolor").value;
+            }
+            function internalConfirm()
+            {
+                if(confirm("Are you sure ??"))
+                {
+                    alert("yes");
+    
+                }
+                else
+                {
+                    alert("Noooo");
+                }
+            }
+            function internalPrompt()
+            {
+               var name = prompt("Enter internal prompt value");
+    
+               alert("hii"+ name);
+            }
+            
+        </script>
+        <script src="External.js"></script>
+    </head>
+    <body>
+    
+        <button onclick="alert('msg')" name="inlineAlert" value="inlineAlert"  >inline</button> <br>
+        <button onclick="prompt('Enter Your name')" name="inlineAlert" value="inlinePrompt" >inline</button> <br>
+        <button onclick="confirm('Are you sure?')" name="inlineAlert" value="inlineConfirm" >inline</button> <br>
+                
+        <button onclick="internalAlert()" name="inlineAlert" value="inlineAlert" id="changecolor">internal</button> <br>
+        <button onclick="internalConfirm()" name="inlineAlert" value="inlineAlert" >internal</button> <br>
+        <button onclick="internalPrompt()" name="inlineAlert" value="inlineAlert" >internal</button> <br>
+                
+        <button onclick="externalAlert()" name="inlineAlert" value="inlineAlert" >external</button> <br>
+        <button onclick="externalConfirm()" name="inlineAlert" value="inlineAlert" >external</button> <br>
+        <button onclick="externalPrompt()" name="inlineAlert" value="inlineAlert" >external</button> <br>
+        
+        <input type="color" onclick="color()">
+
+    </body>
+    </html>
+    
+    
+    
+    
+    
+    </body>
+</html>
